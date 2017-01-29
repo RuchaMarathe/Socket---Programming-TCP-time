@@ -1,0 +1,16 @@
+# _*_Makefile_*_
+
+#
+target: dependencies
+#	
+action
+
+all: TCPtimeclient
+
+TCPtime
+client:
+	gcc TCPtime.c -o TCPtime
+
+clean: 
+	rm TCPtime
+
